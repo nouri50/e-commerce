@@ -1,27 +1,25 @@
-<!doctype html
+<!Doctype html>
 <html>
-    <head>
-        <title>mon site</title>
 
-        <link rel="stylesheet" href="<php RACINE_SITE; ?>/css/style.css">
-
-<body>
+<head>
+    <title>Mon E-commerce</title>
+    <link rel="stylesheet" href="<?php echo RACINE_SITE ?>inc/css/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="<?php echo RACINE_SITE ?>inc/js/main.js"></script>
 </head>
-<div class="conteneur" 
-<div>
-    <a href="" title="mon site">monsite</a>
-
-
-</div>
-<header>
-<nav>
-< href="<?php echo RACINE_SITE;?>" ?>inscription.php">inscription</a>
-< href="<?php echo RACINE_SITE;?>" ?>connection.php">connection</a>
-< href="<?php echo RACINE_SITE;?>" ?>paginier.php">panier</a>
-</nav>
-
-</div>
-</header>
-</html>
 
 <body>
+    <header>
+        <nav class="topnav" id="myTopnav">
+            <a href="<?php echo RACINE_SITE ?>/">Mon site</a>
+            <a href="<?php echo RACINE_SITE ?>inscription.php">Inscription</a>
+            <a href="<?php echo RACINE_SITE ?>connexion.php">Connexion</a>
+            <a href="<?php echo RACINE_SITE ?>boutique.php">Accès à la boutique</a>
+            <a href="<?php echo RACINE_SITE ?>panier.php">Voir votre panier</a>
+            <a href="javascript:void(0);" class="icon" onclick="toggleNav()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </nav>
+    </header>
+    <section>
+        <div class="conteneur">

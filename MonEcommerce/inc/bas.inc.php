@@ -1,9 +1,9 @@
 </div>
-
 </section>
 <footer>
-    <div class="container">
-        <?php echo date('y') ; ?> - tous les droit reservés - monNOM Monprenom.
+    <div class="conteneur">
+        <?php echo date('Y'); ?> - Tous droits reservés - MonNom MonPrenom.
+    </div>
 </footer>
 
 </body>
